@@ -1,0 +1,319 @@
+.header{
+
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+    background-color: #fff;
+    left: 0;
+
+    .heading{
+
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 20px 0;
+        height: 100px;
+
+        font-weight: 400;
+
+        color: #333;
+
+        font-size: 13px;
+
+        .brandLogo{
+
+            width: 110px;
+            
+            img{
+                width: 100%;
+            }
+
+        }
+
+        .brandLogo-sm{
+
+            width: 20px;
+            display: none;
+        
+            img{
+                width: 100%;
+            }
+
+        }
+
+        .navigation{
+            display: flex;
+            column-gap: 50px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+
+
+            .navlinks{
+
+                display: flex;
+                align-items: center;
+
+                .link{
+                    
+                    display: flex;
+                    align-items: center;
+
+                    .fi{
+                        margin-top: 4px;
+                        margin-left: 10px;
+                    }
+
+                }
+            }
+            
+        }
+
+        .authButtons{
+            
+            cursor: pointer;
+
+            display: flex;
+            column-gap: 30px;
+            align-items: center;
+
+            .signUpBtn{
+                background-color: var(--brandcolor);
+                color: #fff;
+                padding: 18px 20px;
+                border-radius: 8px;
+            }
+
+            .loginBtn{
+
+                color: var(--brandcolor);
+                font-weight: 500;
+
+            }
+
+        }
+
+        .mobileMenuIcon{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 8px;
+            cursor: pointer;
+            display: none;
+
+            .div_line{
+
+                height: 2px;
+                width: 30px;
+                background-color: #000;
+                border-radius: 100px;
+
+            }
+
+        }
+
+    }
+
+    .heading_sm{
+        height: 100vh;
+        width: 100%;
+        background-color: var(--brandcolor);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        padding: 30px 50px;
+        overflow-y: scroll;
+        background-color: #FFC84B;
+
+        .wholeTeam{
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            width: 100%;
+            padding: 0 50px;
+        }
+
+        .background_sm{
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+
+            display: flex;
+            justify-content: center;
+
+            opacity: 0.5;
+            
+            
+        }
+
+        .headerSide{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+            padding: 30px 50px;
+            background-color: var(--brandcolor);
+
+            .div_line{
+                background-color: #fff;
+            }
+
+            .mobileMenuIcon2{
+
+                position: relative;
+                
+
+                .div_line:first-child{
+
+                    transform: rotate(45deg);
+
+                }
+
+                .div_line:last-child{
+
+                    transform: rotate(135deg);
+                    position: absolute;
+
+                }
+
+            }
+
+        }
+
+        .navigation_sm{
+
+            margin-top: 100px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .navlinks{
+
+                .link{
+                    font-size: 35px;
+
+                    .fi{
+                        font-size: 24px;
+                    }
+
+                    &.login{
+
+                        color: (var(--secondaryColor));
+                        margin-top: 20px;
+
+                    }
+                }
+
+            }
+
+        }
+
+        .signupBtn_sm{
+
+            background-color: var(--secondaryColor);
+            padding: 25px;
+            width: 100%;
+            border-radius: 5px;
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+        }
+
+        .info_sm{
+
+            p{
+                text-align: center;
+                color: #fff;
+                line-height: 21px;
+                margin-top: 30px;
+
+                span{
+                    color: #FFC84B;
+                }
+
+            }
+
+        }
+
+        .footer_sm{
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+@media (max-width : 1300px) {
+
+    .navigation{
+        column-gap: 30px !important;
+    }
+
+    .heading{
+
+        font-size: 13px !important;
+    }
+
+}
+
+@media (max-width : 980px) {
+
+    .authButtons{
+        display: none !important;
+    }
+
+}
+
+@media (max-width : 768px) {
+
+    .mobileMenuIcon{
+        display: flex !important;
+    }
+
+    .navigation{
+        display: none !important;
+    }
+
+}
+
+@media (min-width : 768px) {
+
+    .heading_sm{
+        display: none !important;
+    }
+
+}
+
+@media (max-width : 500px) {
+
+    .wholeTeam, .headerSide{
+        padding: 20px !important;
+    }
+    
+
+}
+
+@media (max-width : 425px) {
+
+    .heading_sm{
+        padding: 20px !important;
+    }
+
+}

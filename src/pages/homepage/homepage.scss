@@ -1,0 +1,687 @@
+// Home Landing Styling
+
+
+.homeLanding{
+
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+
+    .stripContainer{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+    }
+
+    .textContent{
+
+        margin-top: 100px;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 999;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        //max-width: 1000px;
+        width: 100%;
+
+        .subText{
+            font-weight: 300;
+            max-width: 600px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .mainText{
+            
+            font-size: 90px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: -3px;
+            line-height: 100px;
+
+            span.typewritter{
+
+                color: var(--brandcolor);
+
+                .Typewriter__cursor{
+                    
+                    font-size: 90px;
+                    font-weight: 100 !important;
+
+                }
+
+            }
+
+            .better{
+                position: relative;
+                width: max-content;
+            }
+
+            .imgBetter{
+                display: inline-block;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-top: -25px;
+                margin-left: -10px;
+                display: none;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+
+    }
+
+    .phoneScreens{
+
+        width: 700px;
+        margin-top: 80px;
+
+        img{
+            width: 100%;
+        }
+
+    }
+
+}
+
+// Statistics Styling
+
+.flockJoin{
+
+    width: 100%;
+    background-color: #fff;
+
+    .otherStat{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .users{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            .users_img{
+                width: 150px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .joinText{
+                span{
+                    color: var(--brandcolor);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .downloadStores{
+            display: flex;
+            column-gap: 20px;
+
+            .downloadBtn_show{
+                width: 180px;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+// Super Charged Styling
+
+.charged{
+
+    .handPhone{
+        height: 750px;
+        background-color: var(--faintblue);
+        width: 700px;
+        position: relative;
+
+        img{
+            height: 90%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    display: flex;
+    align-items: center;
+    column-gap: 105px;
+
+    .textArea{
+
+        width: 600px;
+
+        .subTopText{
+            margin-top: 30px;
+            line-height: 28px;
+            font-weight: 300;
+            width: 80%;
+        }
+
+        .topText{
+
+            font-size: 54px;
+            font-weight: 500;
+
+            span{
+                color: var(--brandcolor);
+                font-style: italic;
+            }
+
+        }
+
+    }
+
+}
+
+
+// Service Information
+
+.serviceInfo{
+    width: 100%;
+
+    .services{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 180px 0;
+
+        .textPam{
+
+            font-size: 90px;
+            width: 100%;
+            text-align: left;
+            line-height: 95px;
+
+            span{
+                color: var(--brandcolor);
+            }
+
+        }
+
+        .moneyGIF{
+            width: 100%;
+            position: absolute;
+            display: none;
+            top: 0;
+
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+
+// features set
+
+.features{
+
+    width: 100%;
+    overflow-x: hidden;
+
+    .feature{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .photoHold{
+
+            width: 700px;
+            height: 700px;
+            background-color: #D5EDFF;
+            border-radius: 0px 350px 0px 0px;
+            position: relative;
+
+            img{
+                height: 88%;
+                position: absolute;
+                bottom: 0;
+                margin-left: 60px;
+            }
+
+        }
+
+        .textPin{
+
+            width: 40%;
+            
+            .tag{
+                padding: 10px 15px;
+                border-radius: 100px;
+                font-size: 10px;
+                background-color: #D5EDFF;
+                width: max-content;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                color: var(--brandcolor);
+                margin-bottom: 50px;
+
+                .fi{
+                    margin-top: 2px;
+                    margin-left: 3px;
+                }
+            }
+
+            .content{
+
+                font-size: 50px;
+                line-height: 63px;
+
+            }
+
+            .sub_content{
+
+                font-weight: 300;
+                width: 75%;
+                line-height: 28px;
+                margin: 40px 0;
+
+            }
+
+            .proof{
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+
+                a{
+                    text-decoration: none;
+                    color: var(--brandcolor);
+                    margin-left: 3px;
+                }
+
+                .fi{
+
+                    color: var(--brandcolor);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 3px;
+
+                }
+            }
+
+        }
+
+    }
+
+    .feature2{
+
+        .tag, .photoHold{
+            background-color: #FBF7EE !important;
+            color: #FF9D00 !important;
+        }
+
+    }
+
+    .flip{
+
+        border-radius: 350px 0px 0px 0px !important;
+
+        img{
+            margin-left: 115px !important;
+        }
+
+    }
+
+    .feature3{
+
+        .tag, .photoHold{
+            background-color: #FBEEEE !important;
+            color: #FF5668 !important;
+        }
+
+    }
+
+
+    .feature4{
+
+        .tag, .photoHold{
+            background-color: #EEFBF3 !important;
+            color: #00C9AA !important;
+        }
+
+        span{
+            background-color: #00C9AA;
+        }
+
+    }
+
+}
+
+
+// Virtual Card
+
+.virtualcards{
+
+    padding: 150px 0;
+    background-color: var(--faintblue);
+
+    .virtual{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .textShip{
+
+            width: 50%;
+
+            .mainText{
+
+                font-size: 54px;
+                width: 80%;
+
+                span{
+                    color: var(--brandcolor);
+                }
+
+            }
+
+            .subText{
+                margin: 40px 0;
+                width: 55%;
+                font-weight: 300;
+                line-height: 28px;
+            }
+
+            .supportChannels{
+
+                margin-top: 70px;
+
+                p{
+                    font-size: 14px;
+                    color: #777;
+                    font-weight: 300;
+
+                }
+
+                .supportBizz{
+
+                    display: flex;
+                    align-items: center;
+                    margin-top: 50px;
+                    column-gap: 20px;
+
+                    .bizz{
+                        width: 60px;
+                        height: 60px;
+
+                        img{
+                            width: 100%;
+                        }
+                    }
+
+                }
+
+            }
+
+            .linebr{
+                height: 1px;
+                width: 100%;
+                background-color: rgba($color: #000000, $alpha: .1);
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .pig{
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #0B2394;
+            }
+
+            .tag{
+                padding: 10px 15px;
+                border-radius: 100px;
+                font-size: 10px;
+                background-color: #F1F1FC;
+                width: max-content;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                color: var(--brandcolor);
+                margin-bottom: 50px;
+
+                .fi{
+                    margin-top: 2px;
+                    margin-left: 3px;
+                }
+            }
+
+        }
+
+        .phoneImg{
+
+            height: 850px;
+            width: 40%;
+
+            img{
+                height: 100%;
+            }
+
+        }
+    }
+
+}
+
+
+//merchant area
+
+.merchant {
+
+
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+
+    .merchant_agent{
+
+        display: flex;
+        align-items:  center;
+        justify-content: flex-end;
+        height: 800px;
+
+        .percentile{
+
+            position: absolute;
+            bottom: -50px;
+            right: -120px;
+
+        }
+
+
+        .merchantImg{
+            height: 800px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 42%;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-end;
+
+            img{
+                height: 100%;
+                margin-right: -85px;
+            }
+
+        }
+
+        .textContentArea{
+
+            width: 50%;
+
+            .mainText{
+
+                font-size: 54px;
+
+                span{
+                    color: var(--brandcolor);
+                    //font-style: italic;
+                }
+
+            }
+
+            .subText{
+
+                margin: 40px 0;
+                width: 55%;
+                font-weight: 300;
+                line-height: 28px;
+
+            }
+
+            .proof{
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+
+                a{
+                    text-decoration: none;
+                    color: var(--brandcolor);
+                    margin-left: 3px;
+                }
+
+                .fi{
+
+                    color: var(--brandcolor);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 3px;
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+//Download Area
+
+.download{
+
+    background-color: var(--brandcolor);
+    position: relative;
+
+    overflow: hidden;
+
+    .flexy{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+        height: 800px;
+
+        .Supermain{
+
+            width: 40%;
+            color: #fff;
+
+            .padi{
+                font-size: 54px;
+            }
+
+            .subpadi{
+                margin: 40px 0;
+                width: 60%;
+                font-weight: 300;
+                line-height: 28px;
+                margin-bottom: 60px;
+            }
+
+            .btn{
+
+                .btnone, .btntwo{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    margin-bottom: 20px;
+
+                    .btn-grp{
+
+                        width: 180px;
+
+                        img{
+                            width: 100%;
+                        }
+                    }
+
+                }
+
+            }
+
+            
+
+        }
+
+        .featherphoto{
+
+            position: absolute;
+            bottom: -30px;
+            right: 0;
+            width: 570px;
+            height: 90%;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+            
+            img{
+                width: 100%;
+            }
+
+            
+        }
+
+    }
+
+    .wavesBG{
+        position: absolute;
+        top: -102%;
+        left: -60%;
+        opacity: .03;
+    }
+
+}

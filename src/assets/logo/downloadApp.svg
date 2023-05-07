@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="68" viewBox="0 0 209 68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bffc"/>
+      <stop offset="1" stop-color="#0073f6"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7404" data-name="Group 7404" transform="translate(0 -0.45)">
+    <rect id="Rectangle_1009" data-name="Rectangle 1009" width="209" height="68" rx="10" transform="translate(0 0.45)" fill="#ebf5fe"/>
+    <g id="Group_3199" data-name="Group 3199" transform="translate(15 15)">
+      <text id="Download_on_Apple_App_Store" data-name="Download on
+Apple App Store" transform="translate(51 14.45)" font-size="14" font-family="BRFirma-SemiBold, BR Firma" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">Download on</tspan><tspan x="0" y="18">Apple App Store</tspan></text>
+      <g id="app-store" transform="translate(0 1.45)">
+        <path id="Path_5682" data-name="Path 5682" d="M29.286.032H7.413A7.41,7.41,0,0,0,0,7.445V29.322a7.409,7.409,0,0,0,7.413,7.409H29.29A7.413,7.413,0,0,0,36.7,29.318V7.445A7.417,7.417,0,0,0,29.286.032Z" transform="translate(0 -0.032)" fill="url(#linear-gradient)"/>
+        <g id="Group_3202" data-name="Group 3202" transform="translate(4.89 6.305)">
+          <path id="Path_5683" data-name="Path 5683" d="M81.519,90.109l.743-1.284a1.673,1.673,0,0,1,2.9,1.67L78,102.889H83.18a2.292,2.292,0,0,1,1.89,3.34H69.886a1.67,1.67,0,0,1,0-3.34h4.257l5.45-9.445-1.7-2.954a1.673,1.673,0,0,1,2.9-1.67Z" transform="translate(-68.216 -87.982)" fill="#fff"/>
+          <path id="Path_5684" data-name="Path 5684" d="M102.726,351.922l-1.606,2.785a1.673,1.673,0,1,1-2.9-1.67l1.193-2.064A2.859,2.859,0,0,1,102.726,351.922Z" transform="translate(-95.863 -331.955)" fill="#fff"/>
+          <path id="Path_5685" data-name="Path 5685" d="M276.526,185.864h4.344a1.67,1.67,0,1,1,0,3.34h-2.413l1.629,2.826a1.673,1.673,0,0,1-2.9,1.67q-4.115-7.136-6.17-10.689a4.62,4.62,0,0,1,.587-5.656Q273.248,180.175,276.526,185.864Z" transform="translate(-255.837 -170.947)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

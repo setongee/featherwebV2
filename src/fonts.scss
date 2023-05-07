@@ -1,0 +1,49 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+@font-face {
+    font-family: 'br-firma';
+    src: url('./assets/fonts/BR Firma Light.woff') format('woff');
+    font-weight: 200;
+    font-style: light;
+  }
+  
+  @font-face {
+    font-family: 'br-firma';
+    src: url('./assets/fonts/BR Firma Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: medium;
+  }
+  
+  @font-face {
+    font-family: 'br-firma';
+    src: url('./assets/fonts/BR Firma SemiBold.woff') format('woff');
+    font-weight: 500;
+    font-style: semibold;
+  }
+  
+  @font-face {
+    font-family: 'br-firma';
+    src: url('./assets/fonts/BR Firma Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+  font-family: 'br-firma';
+  src: url('./assets/fonts/BR\ Firma\ SemiBold\ Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+body{
+
+    font-family: 'br-firma';
+    overflow-x: hidden;
+
+}
+
+:root {
+    --brandcolor: #342AD5;
+    --secondaryColor : #00C9AA;
+    --faintblue : #F7FAFF;
+}

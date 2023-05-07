@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="68" viewBox="0 0 209 68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.423" y1="0.75" x2="0.529" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00e2ff"/>
+      <stop offset="1" stop-color="#00c5ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7405" data-name="Group 7405" transform="translate(0 -0.45)">
+    <rect id="Rectangle_1009" data-name="Rectangle 1009" width="209" height="68" rx="10" transform="translate(0 0.45)" fill="#ebf5fe"/>
+    <g id="Group_3199" data-name="Group 3199" transform="translate(17.126 15)">
+      <text id="Download_on_Google_Playstore" data-name="Download on
+Google Playstore" transform="translate(48.874 14.45)" font-size="14" font-family="BRFirma-SemiBold, BR Firma" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">Download on</tspan><tspan x="0" y="18">Google Playstore</tspan></text>
+      <g id="_x34_2.Google_PLay" transform="translate(0 1.45)">
+        <path id="Path_5678" data-name="Path 5678" d="M67.1,39.767l-6.215-3.59L54.521,42.54,60.883,48.9l6.237-3.6a3.23,3.23,0,0,0-.021-5.534Z" transform="translate(-36.222 -24.169)" fill="#ffce00"/>
+        <path id="Path_5679" data-name="Path 5679" d="M32.929,29.451,15.6,12a3.271,3.271,0,0,0-.969,2.325V44.529a3.273,3.273,0,0,0,.969,2.325Z" transform="translate(-14.63 -11.08)" fill="url(#linear-gradient)"/>
+        <path id="Path_5680" data-name="Path 5680" d="M34.073,28.371l6.363-6.363.01-.01L31.92,17.09l-11.238-6.6a3.188,3.188,0,0,0-3.273-.065,4.856,4.856,0,0,0-.667.495Z" transform="translate(-15.773 -10)" fill="#00f076"/>
+        <path id="Path_5681" data-name="Path 5681" d="M16.742,67.449a4.857,4.857,0,0,0,.667.495A3.342,3.342,0,0,0,19,68.375a3.28,3.28,0,0,0,1.658-.473L31.92,61.328l8.525-4.908-.01-.01-6.362-6.363Z" transform="translate(-15.773 -31.676)" fill="#f63448"/>
+      </g>
+    </g>
+  </g>
+</svg>
