@@ -748,13 +748,31 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+
+        .imgPhone{
+            position: absolute;
+            top: 300px;
+        }
+
+        .line{
+            height: 1px;
+            width: 30%;
+            background-color: #dadada;
+            position: absolute;
+            top: 50%;
+
+            &.line2{
+                right: 0;
+            }
+        }
 
         .title{
 
             
             font-size: 54px;
             text-align: center;
-            margin-bottom: 150px;
+            margin-bottom: 300px;
 
             span{
                 color: #342AD5;
@@ -814,7 +832,7 @@
 
         .top-right{
 
-            top: 0;
+            top: 20px;
             right: 0;
             text-align: right;
             align-items: flex-end;
@@ -823,14 +841,14 @@
 
         .top-left{
 
-            top: 0;
+            top: 20px;
             left: 0;
             
         }
 
         .bottom-right{
 
-            bottom: 0;
+            bottom: 20px;
             right: 0;
             text-align: right;
             align-items: flex-end;
@@ -839,7 +857,7 @@
 
         .bottom-left{
 
-            bottom: 0;
+            bottom: 20px;
             left: 0;
             
         }

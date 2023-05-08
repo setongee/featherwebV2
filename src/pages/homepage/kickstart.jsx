@@ -1,5 +1,6 @@
 import React from 'react'
 import Guide from '../../components/displayGuideComp/guide'
+import phone from '../../assets/photos/Dashboard Iphone.svg'
 
 export default function Kickstart() {
   return (
@@ -10,11 +11,18 @@ export default function Kickstart() {
 
                 <div className="getStarted">
 
+                    <div className="imgPhone">
+                        <img src={phone} alt="iphone" />
+                    </div>
+
                     <div className="title">
                         Kickstart your feather {<br></br>} experience in <span>5 Mins</span>
                     </div>
 
                     <div className="getKick">
+
+                        <div className="line line1"></div>
+                        <div className="line line2"></div>
 
                         <div className="content-start top-left">
 
