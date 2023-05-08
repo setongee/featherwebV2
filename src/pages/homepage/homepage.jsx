@@ -9,6 +9,8 @@ import Features from './features'
 import VirtualCard from './virtualCards'
 import Merchant from './merchant'
 import Download from './download'
+import Partners from './partners'
+import Kickstart from './kickstart'
 
 
 
@@ -27,6 +29,8 @@ const HomePage = () => {
             <VirtualCard/>
             <Merchant/>
             <Download/>
+            <Partners />
+            <Kickstart />
 
 
         </div>
