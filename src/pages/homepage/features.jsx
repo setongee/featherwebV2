@@ -4,6 +4,7 @@ import CashWithdraw from '../../assets/logo/feather_cash_withdraw.png'
 import funds from '../../assets/logo//nicesmile.png'
 import bills from '../../assets/logo/powerBills.png'
 import chatConvo from '../../assets/logo/chatsconvo.png'
+import patterns from '../../assets/photos/pattern_feather_x.png'
 
 const Features = () => {
 
@@ -19,7 +20,15 @@ const Features = () => {
                     <div className="feature feature1">
 
                         <div className="photoHold">
-                            <img src={CashWithdraw} alt="feather africa - cash withdrawal feature" />
+
+                            <div className="pattern">
+                                <img src={patterns} alt="feather patterns" />
+                            </div>
+
+                            <div className="mainPic">
+                                <img src={CashWithdraw} alt="feather africa - cash withdrawal feature" />
+                            </div>
+                            
                         </div>
 
                         <div className="textPin">
@@ -28,7 +37,7 @@ const Features = () => {
 
                             <div className="content">
 
-                                Withdraw your cash from businesses and agents near you.
+                                Withdraw your cash from verified & trusted merchants near you.
 
                             </div>
 
@@ -68,7 +77,15 @@ const Features = () => {
                         </div>
 
                         <div className="photoHold flip">
-                            <img src={funds} alt="feather africa - transfer funds feature" />
+
+                            <div className="pattern">
+                                <img src={patterns} alt="feather patterns" />
+                            </div>
+
+                            <div className="mainPic">
+                                <img src={funds} alt="feather africa - transfer funds feature" />
+                            </div>
+
                         </div>
 
                     </div>
@@ -80,7 +97,17 @@ const Features = () => {
                     <div className="feature feature3">
 
                         <div className="photoHold">
-                            <img src={bills} alt="feather africa - bill payment feature" />
+                            
+                            <div className="pattern">
+                                <img src={patterns} alt="feather patterns" />
+                            </div>
+
+                            <div className="mainPic">
+
+                                <img src={bills} alt="feather africa - bill payment feature" />
+
+                            </div>
+                            
                         </div>
 
                         <div className="textPin">
@@ -129,7 +156,18 @@ const Features = () => {
                         </div>
 
                         <div className="photoHold flip">
-                            <img src={chatConvo} alt="feather africa - conversations & chat feature" />
+
+                            <div className="pattern">
+                                <img src={patterns} alt="feather patterns" />
+                            </div>
+
+                            <div className="mainPic">
+
+                                <img src={chatConvo} alt="feather africa - conversations & chat feature" />
+                                
+                            </div>
+
+                            
                         </div>
 
                     </div>

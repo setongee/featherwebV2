@@ -1,39 +1,16 @@
 // Home Landing Styling
 
-
 .homeLanding{
 
-    height: 100vh;
-    background-color: #fff;
     padding-top: 100px;
-    position: relative;
-    overflow: hidden;
-
-    .stripContainer{
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        overflow: hidden;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        z-index: 9;
-    }
 
     .textContent{
 
-        margin-top: 100px;
-        padding: 0 30px;
+        margin-top: 170px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        z-index: 999;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        //max-width: 1000px;
         width: 100%;
 
         .subText{
@@ -92,8 +69,8 @@
 
     .phoneScreens{
 
-        width: 700px;
-        margin-top: 80px;
+        width: 100%;
+        margin-top: 180px;
 
         img{
             width: 100%;
@@ -108,14 +85,15 @@
 .flockJoin{
 
     width: 100%;
-    background-color: #fff;
+    margin: 30px 0 30px 0;
 
     .otherStat{
 
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 30px 0;
+        padding: 20px 0px;
+        border-radius: 10px;
 
         .users{
             display: flex;
@@ -123,7 +101,7 @@
             column-gap: 20px;
 
             .users_img{
-                width: 150px;
+                width: 180px;
 
                 img{
                     width: 100%;
@@ -141,9 +119,10 @@
         .downloadStores{
             display: flex;
             column-gap: 20px;
+            cursor: pointer;
 
             .downloadBtn_show{
-                width: 180px;
+                width: 170px;
 
                 img{
                     width: 100%;
@@ -159,43 +138,98 @@
 
 .charged{
 
-    .handPhone{
-        height: 750px;
-        background-color: var(--faintblue);
-        width: 700px;
-        position: relative;
+    position: relative;
+
+    .bolt{
+        position: absolute;
+        z-index: 999;
+        overflow: hidden;
+        height: 250px;
+        width: 250px;
+        left: 31%;
+        top: 70px;
 
         img{
-            height: 90%;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            width: 100%;
+        }
+
+    }
+
+    .handPhone{
+        height: 700px;
+        width: calc(50% - 15px);
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        img{
+            height: 120%;
         }
     }
 
     display: flex;
     align-items: center;
-    column-gap: 105px;
+    justify-content: space-between;
 
     .textArea{
 
-        width: 600px;
+        width: calc(50% - 15px);
+        background-color: var(--brandcolor);
+        padding: 70px;
+        height: 700px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        color: #fff;
+
+        .pattern{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                width: 100%;
+                mix-blend-mode: multiply;
+                opacity: .3;
+
+            }
+        }
+
+        .texting{
+            position: absolute;
+            z-index: 2;
+            left: 0;
+            top: 110px;
+            padding: 0px 70px;
+        }
 
         .subTopText{
-            margin-top: 30px;
+            margin-top: 50px;
             line-height: 28px;
             font-weight: 300;
             width: 80%;
         }
 
+        .explore{
+            margin-top: 125px;
+            color: #fc0;
+            cursor: pointer;
+        }
+
         .topText{
 
-            font-size: 54px;
+            font-size: 50px;
             font-weight: 500;
+            width: 80%;
+            line-height: 60px;
 
             span{
-                color: var(--brandcolor);
+                color: #fc0;
                 font-style: italic;
             }
 
@@ -210,21 +244,54 @@
 
 .serviceInfo{
     width: 100%;
+    margin-top: 30px;
 
     .services{
 
         display: flex;
-        align-items: center;
-        justify-content: center;
         position: relative;
-        padding: 180px 0;
+        padding: 10px 70px;
+        height: 500px;
+        background-color: #101026;
+        border-radius: 15px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+
+        p{
+            width: 50%;
+            font-weight: 200;
+            color: #fff;
+            font-size: 15px;
+            line-height: 25px;
+            margin-top: 40px;
+        }
+
+        .pattern{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                width: 100%;
+                mix-blend-mode: overlay;
+                opacity: .8;
+
+            }
+        }
+        
 
         .textPam{
 
-            font-size: 90px;
-            width: 100%;
+            font-size: 50px;
+            width: 70%;
             text-align: left;
-            line-height: 95px;
+            line-height: 60px;
+            font-weight: 500;
+            color: #fff;
 
             span{
                 color: var(--brandcolor);
@@ -253,6 +320,7 @@
 
     width: 100%;
     overflow-x: hidden;
+    margin-top: 50px;
 
     .feature{
 
@@ -265,15 +333,38 @@
 
             width: 700px;
             height: 700px;
-            background-color: #D5EDFF;
-            border-radius: 0px 350px 0px 0px;
+            background-color: var(--brandcolor);
+            border-radius: 15px 350px 15px 15px;
             position: relative;
+            overflow: hidden;
 
-            img{
-                height: 88%;
+            .mainPic{
+
+                img{
+                    height: 85%;
+                    position: absolute;
+                    bottom: 0;
+                    margin-left: 80px;
+                }
+
+            }
+
+
+            .pattern{
+                
+                height: 100%;
+                width: 100%;
                 position: absolute;
-                bottom: 0;
-                margin-left: 60px;
+                top: 0;
+                left: 0;
+    
+                img{
+                    
+                    width: 120%;
+                    mix-blend-mode: multiply;
+                    opacity: .5;
+    
+                }
             }
 
         }
@@ -349,14 +440,39 @@
             color: #FF9D00 !important;
         }
 
+        .photoHold{
+            background-color: #ffc107 !important;
+        }
+
     }
 
     .flip{
 
-        border-radius: 350px 0px 0px 0px !important;
+        border-radius: 350px 10px 10px 10px !important;
+        
+        .mainPic{
 
-        img{
-            margin-left: 115px !important;
+            img{
+                margin-left: 115px !important;
+            }
+
+        }
+
+        .pattern{
+                
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                
+                width: 120%;
+                mix-blend-mode : multiply !important;
+                opacity: .3 !important;
+
+            }
         }
 
     }
@@ -367,6 +483,35 @@
             background-color: #FBEEEE !important;
             color: #FF5668 !important;
         }
+        
+        .photoHold{
+            background-color: #FF5668 !important;
+        }
+
+        .mainPic{
+
+            img{
+                margin-left: 65px !important;
+            }
+
+        }
+
+        .pattern{
+                
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                
+                width: 120%;
+                mix-blend-mode : multiply !important;
+                opacity: .45 !important;
+
+            }
+        }
 
     }
 
@@ -376,6 +521,37 @@
         .tag, .photoHold{
             background-color: #EEFBF3 !important;
             color: #00C9AA !important;
+        }
+
+        .photoHold{
+
+            background-color: #00C9AA !important;
+            
+        }
+
+        .mainPic{
+
+            img{
+                margin-left: 115px !important;
+            }
+
+        }
+
+        .pattern{
+                
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                
+                width: 120%;
+                mix-blend-mode : multiply !important;
+                opacity: .3 !important;
+
+            }
         }
 
         span{
@@ -440,9 +616,13 @@
                     margin-top: 50px;
                     column-gap: 20px;
 
+                    .bizzTxt{
+                        font-size: 12px;
+                    }
+
                     .bizz{
-                        width: 60px;
-                        height: 60px;
+                        width: 50px;
+                        height: 50px;
 
                         img{
                             width: 100%;
@@ -451,20 +631,6 @@
 
                 }
 
-            }
-
-            .linebr{
-                height: 1px;
-                width: 100%;
-                background-color: rgba($color: #000000, $alpha: .1);
-                margin-top: 50px;
-                margin-bottom: 50px;
-            }
-
-            .pig{
-                text-transform: uppercase;
-                font-size: 14px;
-                color: #0B2394;
             }
 
             .tag{
@@ -489,11 +655,11 @@
 
         .phoneImg{
 
-            height: 850px;
-            width: 40%;
+            width: 620px;
+            overflow: hidden;
 
             img{
-                height: 100%;
+                width: 100%;
             }
 
         }
@@ -508,38 +674,37 @@
 
 
     position: relative;
-    height: 800px;
+    height:800px;
     overflow: hidden;
 
     .merchant_agent{
 
         display: flex;
         align-items:  center;
-        justify-content: flex-end;
+        justify-content: space-between;
         height: 800px;
 
         .percentile{
 
             position: absolute;
-            bottom: -50px;
+            bottom: 0px;
             right: -120px;
+            display: none;
 
         }
 
 
         .merchantImg{
-            height: 800px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 42%;
+
+            height: 600px;
+            width: 600px;
             overflow: hidden;
             display: flex;
             justify-content: flex-end;
+            border-radius: 20px;
 
             img{
                 height: 100%;
-                margin-right: -85px;
             }
 
         }
@@ -601,9 +766,7 @@
 
 .download{
 
-    background-color: var(--brandcolor);
     position: relative;
-
     overflow: hidden;
 
     .flexy{
@@ -613,7 +776,36 @@
         justify-content: space-between;
         position: relative;
         overflow: hidden;
-        height: 800px;
+        height: 600px;
+        background-color:#342AD5;
+        border-radius: 30px;
+        padding: 0 70px;
+
+        .superBox{
+            position: absolute;
+            z-index: 99;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .pattern{
+                
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                
+                width: 120%;
+                mix-blend-mode : multiply !important;
+                opacity: .5 !important;
+
+            }
+        }
+        
 
         .Supermain{
 
@@ -626,7 +818,7 @@
 
             .subpadi{
                 margin: 40px 0;
-                width: 60%;
+                width: 100%;
                 font-weight: 300;
                 line-height: 28px;
                 margin-bottom: 60px;
@@ -661,9 +853,9 @@
 
             position: absolute;
             bottom: -30px;
-            right: 0;
-            width: 570px;
-            height: 90%;
+            right: 70px;
+            width: 500px;
+            height: 100%;
             display: flex;
             align-items: flex-end;
             overflow: hidden;
@@ -671,7 +863,6 @@
             img{
                 width: 100%;
             }
-
             
         }
 
@@ -742,6 +933,7 @@
 
     padding: 0px 0;
     position: relative;
+    padding-bottom: 150px;
     
 
     .getStarted{
@@ -816,6 +1008,7 @@
 
                 .explain{
                     font-size: 13px;
+                    cursor: pointer;
                 }
 
                 .stroke{
@@ -863,5 +1056,213 @@
         }
     }
 
+
+}
+
+
+//crm
+
+.crm{
+    background-color: var(--faintblue);
+    margin: 150px 0;
+    height: 700px;
+    overflow: hidden;
+
+    .crmPoint{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .crmImg{
+
+            width: 45%;
+            height: 700px;
+            overflow: hidden;
+            //border-radius: 0px 350px 0px 0px;
+
+            img{
+                height: 100%;
+            }
+
+        }
+
+    }
+
+    .crmContent{
+
+        width: 45%;
+
+        .mainText{
+            font-size: 50px;
+        }
+
+        .subText{
+            margin: 40px 0;
+            width: 65%;
+            line-height: 28px;
+            font-weight: 300;
+        }
+
+        .btnNow{
+            
+            background-color: var(--brandcolor);
+            color: #fff;
+            padding: 18px 20px;
+            border-radius: 8px;
+            width: max-content;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+//faqs
+
+.faqs{
+
+    margin: 150px 0;
+    
+
+    .titleHolder{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .faqBody{
+
+        margin: 0 auto;
+        margin-top: 120px;
+        width: 100%;
+
+        .faq{
+
+            padding: 30px;
+            padding-left: 0;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgb(233, 233, 233);
+            position: relative;
+            transition: all .4s ease-in-out;
+            overflow: hidden;
+            margin-bottom: 20px;
+            
+            .text-faq{
+
+                font-size: 15px;
+
+                .q{
+                    color: #000;
+                }
+
+                .a{
+                    font-weight: 300;
+                    margin : 10px 0;
+                    margin-bottom: 10px;
+                    line-height: 28px;
+                    width: 60%;
+                    padding-top: 20px;
+                    display: none;
+                    color: #444;
+                }
+
+            }
+
+            .controller{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                cursor: pointer;
+                position: absolute;
+                top: 25px;
+                right: 25px;
+
+                .fi{
+                    margin-top: 5px;
+                }
+            }
+
+            .controllerB{
+
+                display: none;
+
+            }
+
+            &.openFaq{
+
+                height: max-content;
+                padding-bottom: 20px;
+
+                .a{
+                    display: block !important;
+                }
+
+                .controller{
+                    display: none;
+                }
+
+                .controllerB{
+                    display: flex;
+                }
+
+            }
+        }
+    }
+}
+
+
+//footer
+
+.footerArea{
+
+    position: relative;
+
+    .stripContainer2{
+
+        margin-top: -100px;
+        
+        //transform: rotateY(180deg) rotate(15deg);
+
+        width: 110%;
+        height: 400px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .footer{
+
+
+        height: 300px;
+        width: 100%;
+
+        .signUp{
+
+            .smallText{
+
+                color: #101026;
+                font-weight: 300;
+                margin-bottom: 45px;
+                font-size: 18px;
+
+            }
+
+            .topic{
+
+                font-size: 30px;
+                line-height: 40px;
+                font-weight: 400;
+
+            }
+
+        }
+
+        
+    }
 
 }

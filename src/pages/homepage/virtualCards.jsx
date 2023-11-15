@@ -7,7 +7,7 @@ import spotify from '../../assets/logo/pay_sportify_music_premium_with_feather_ 
 import amazon from '../../assets/logo/shop_amazon_premium_with_feather_ africa.png'
 import netflix from '../../assets/logo/pay_netflix_with_feather_ africa.png'
 
-import virtualCardScreen from '../../assets/logo/feather_africa_vitual_card_screen.png'
+import virtualCardScreen from '../../assets/photos/style.png'
 
 const VirtualCard = () => {
 
@@ -67,10 +67,6 @@ const VirtualCard = () => {
                             </div>
 
                         </div>
-
-                        <div className="linebr"></div>
-
-                        <p className='pig'>Coming Soon</p>
 
 
                     </div>

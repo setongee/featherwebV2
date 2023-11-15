@@ -5,6 +5,7 @@ import phone from '../../assets/logo/phones.png'
 import appStore from '../../assets/logo/appStore.png'
 import playstore from '../../assets/logo/playstore.png'
 import webapp from '../../assets/logo/webapp.png'
+import patterns from '../../assets/photos/pattern_feather_x.png'
 
 import waves from '../../assets/logo/waves.png'
 
@@ -25,8 +26,15 @@ export default function Download() {
         <Guide>
 
              <div className="flexy">
+
+                <div className="pattern">
+                    <img src={patterns} alt="feather patterns" />
+                </div>
                   
-                <div className='Supermain'>
+                <div className="superBox">
+
+
+                      <div className='Supermain'>
 
                    <div className="padi">
 
@@ -49,12 +57,6 @@ export default function Download() {
 
                       </div>
 
-                      <div className="btntwo">
-
-                        <div className="btnweb btn-grp"> <img src={webapp} alt="Register and Login feather app on the web" /> </div>
-
-                      </div>
-
                   </div>
 
 
@@ -62,7 +64,12 @@ export default function Download() {
 
 
                 <div className="featherphoto">
+
                     <img src={phone} alt="" />
+
+                </div>
+
+
                 </div>
 
              

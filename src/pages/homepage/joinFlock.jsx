@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import axios from 'axios'
 
 import Guide from '../../components/displayGuideComp/guide'
-import users from '../../assets/logo/users.png'
+import users from '../../assets/logo/popu.svg'
 import play from '../../assets/logo/downloadPlay.svg'
 import app from '../../assets/logo/downloadApp.svg'
 
@@ -14,7 +14,7 @@ const JoinFlock = () => {
 
     useEffect(() => {
         
-        axios.get('https://featherafrica.co:3300/api/v1/admin/stats')
+        axios.get('https://featherafrica.co/api/v1/admin/stats')
         .then((e) => setStat(e.data.data.users.totalUsers.toLocaleString()))
 
         
@@ -37,14 +37,14 @@ const JoinFlock = () => {
                         </div>
 
                         <div className="joinText">
-                            Join {stat}+ {<br></br>} people on the <span>flock</span>
+                            Join {stat}+ people on the <span>flock</span>
                         </div>
 
                     </div>
 
                     <div className="downloadStores">
-                        <div className="downloadBtn_show"> <img src={play} alt="" /> </div>
-                        <div className="downloadBtn_show"> <img src={app} alt="" /> </div>
+                        <a className="downloadBtn_show" href='https://play.google.com/store/apps/details?id=feather.peer&hl=en&gl=NG' target='_blank' > <img src={play} alt="" /> </a>
+                        <a className="downloadBtn_show" href='https://apps.apple.com/ng/app/feather-cash-on-the-go/id6447082427' target='_blank' > <img src={app} alt="" /> </a>
                     </div>
 
                 </div>

@@ -5,6 +5,7 @@ import merchant from '../../assets/logo/feather_merchant.jpg'
 import percentage from '../../assets/logo/percentage.png'
 
 
+
 export default function Merchant() {
 
   return (

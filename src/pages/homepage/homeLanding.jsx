@@ -5,6 +5,8 @@ import Typewriter from 'typewriter-effect';
 import mark from '../../assets/logo/markout.png'
 import strip from '../../assets/logo/strip2.svg'
 import screens from '../../assets/logo/phoneScreens.png'
+import peeps from '../../assets/photos/gp.png'
+import Guide from '../../components/displayGuideComp/guide';
 
 
 
@@ -12,11 +14,7 @@ const HomeLanding = () => {
 
     return (
 
-        <section className="homeLanding">
-
-        <div className="stripContainer">
-            <img src={strip} alt="feather wave" />
-        </div>
+        <div className="homeLanding">
         
         <div className="textContent">
         
@@ -44,15 +42,17 @@ const HomeLanding = () => {
         
             <div className="subText">Feather is a modern digital wallet on steroids that helps you process your daily transactional needs. Do everything with Feather </div>
         
-            <div className="phoneScreens">
-                <img src={screens} alt="feather screens mockup" />
-            </div>
+            <Guide>
+                <div className="phoneScreens">
+                    <img src={peeps} alt="feather screens mockup" />
+                </div>
+            </Guide>
         
         </div>
         
         
         
-        </section>
+        </div>
 
     )
 

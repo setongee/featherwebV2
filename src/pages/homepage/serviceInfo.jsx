@@ -1,6 +1,7 @@
 import React from 'react'
 import Guide from '../../components/displayGuideComp/guide'
 import uptime from '../../assets/logo/digital-pulses.gif'
+import patterns from '../../assets/photos/pattern_feather_x.png'
 
 const ServiceInfo = () => {
 
@@ -12,6 +13,10 @@ const ServiceInfo = () => {
 
                 <div className="services">
 
+                    <div className="pattern">
+                        <img src={patterns} alt="feather patterns" />
+                    </div>
+
                     <div className="textPam">
 
                         Enjoy low commissions,
@@ -19,6 +24,8 @@ const ServiceInfo = () => {
                         <span> excellect customer support. </span>
 
                     </div>
+
+                    <p>Premium services just for you to enjoy. {<br></br>} Transactions can be easy, quick and safe, yeah!</p>
 
                     <div className="moneyGIF">
                         <img src={uptime} alt="Money Money Money" />
