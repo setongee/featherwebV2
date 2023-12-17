@@ -13,23 +13,13 @@ const ServiceInfo = () => {
 
                 <div className="services">
 
-                    <div className="pattern">
-                        <img src={patterns} alt="feather patterns" />
-                    </div>
-
                     <div className="textPam">
 
-                        Enjoy low commissions,
-                        99.9% service uptime and
-                        <span> excellect customer support. </span>
+                        Enjoy competitive commissions and great service uptime.
 
                     </div>
 
-                    <p>Premium services just for you to enjoy. {<br></br>} Transactions can be easy, quick and safe, yeah!</p>
-
-                    <div className="moneyGIF">
-                        <img src={uptime} alt="Money Money Money" />
-                    </div>
+                    <p>Feather is easy, quick and safe.</p>
 
                 </div>
 

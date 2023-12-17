@@ -7,7 +7,11 @@ import spotify from '../../assets/logo/pay_sportify_music_premium_with_feather_ 
 import amazon from '../../assets/logo/shop_amazon_premium_with_feather_ africa.png'
 import netflix from '../../assets/logo/pay_netflix_with_feather_ africa.png'
 
-import virtualCardScreen from '../../assets/photos/style.png'
+import virtualCardScreen from '../../assets/photos/brain.png'
+import virtualCardScreen2 from '../../assets/photos/joinCardPhones.svg'
+
+import card1 from '../../assets/photos/card1.png'
+import card2 from '../../assets/photos/card2.png'
 
 const VirtualCard = () => {
 
@@ -31,12 +35,10 @@ const VirtualCard = () => {
                         </div>
 
                         <div className="subText">
-                            Enjoy powerful services perfectly tailored for you, our driving force is to eliminate your pain points and enhance convenience in transaction.
+                            Get a Feather virtual card to shop, or pay for subscriptions and gifts online anywhere in the world.
                         </div>
 
                         <div className="supportChannels">
-
-                            <p>Accepted on popular platforms like</p>
 
                             <div className="supportBizz">
 
@@ -71,11 +73,22 @@ const VirtualCard = () => {
 
                     </div>
 
-                    <div className="phoneImg">
+                    <div className="cardsSlide">
+
+                        <div className="card1">
+                            <img src={card1} alt="" />
+                        </div>
+                        <div className="card2">
+                            <img src={card2} alt="" />
+                        </div>
+
+                    </div>
+
+                    {/* <div className="phoneImg">
 
                         <img src={virtualCardScreen} alt="feather virtual card provider in Nigeria" />
 
-                    </div>
+                    </div> */}
 
                 </div>
 

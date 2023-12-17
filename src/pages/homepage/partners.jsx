@@ -42,11 +42,11 @@ export default function Partners() {
 
                     </div>
 
-                    <div className="logo-x">
+                    {/* <div className="logo-x">
 
                         <img src={smile} alt="feather-partner-logo-smile" />
 
-                    </div>
+                    </div> */}
 
                     <div className="logo-x">
 

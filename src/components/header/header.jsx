@@ -1,18 +1,23 @@
 import React, {useState, useEffect} from 'react'
 import './header.scss'
 import Guide from '../displayGuideComp/guide'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams, useMatch } from 'react-router-dom';
 
 import featherLogo from '../../assets/logo/feather_africa_logo_black.png'
 import featherLogoWhite from '../../assets/logo/feather_africa_logo_white.png'
 import mobileBG from '../../assets/logo/lines_feather_strip.png'
 import HeaderSm from './header_sm';
 
+import HoverCard from './hoverCard';
+import HoverCardFeatures from './hoverCard-features';
+
 const Header = () => {
 
-    let navigate = useNavigate()
+    let navigate = useNavigate();
 
     const [menuOpen, setMenuOpen] = useState(false);
+    const [isFeatureOpen, setIsFeatureOpen] = useState(false);
+    const [isFeature2Open, setIsFeature2Open] = useState(false);
 
     const closeMenu = () => {
 
@@ -25,6 +30,39 @@ const Header = () => {
         setMenuOpen(true);
 
     }
+
+    const In = () => {
+
+        setIsFeatureOpen(true);
+
+    }
+
+    const Out = () => {
+
+        setIsFeatureOpen(false);
+
+    }
+
+    const In2 = () => {
+
+        setIsFeature2Open(true);
+
+    }
+
+    const Out2 = () => {
+
+        setIsFeature2Open(false);
+
+    }
+
+    useEffect(() => {
+        
+        setIsFeatureOpen(false);
+        setIsFeature2Open(false);
+
+        window.scrollTo(0,0)
+
+    }, [window.location.pathname]);
 
     return (
 
@@ -42,33 +80,45 @@ const Header = () => {
 
                     <div className="navigation">
                         
-                        <div className="navlinks"> 
+                        <div className="navlinks" onMouseOver={ () => In() } onMouseLeave={ () => Out() } > 
 
-                            <div className="link" onClick={()=> navigate('/features')}> Features <i className="fi fi-rr-angle-small-down"></i> </div>
+                            <div className="link" > Features <i className="fi fi-rr-angle-small-down"></i> </div>
+
+                            {
+                                isFeatureOpen ? 
+                                    
+                                    <div className="hoverr">
+
+                                        <HoverCard cursor = {Out} cursorIn = {In} /> 
+
+                                    </div>
+
+                                : null
+                            }
+
+                        </div>
+
+                        <div className="navlinks" onMouseOver={ () => In2() } onMouseLeave={ () => Out2() } > 
+
+                            <div className="link" > Products <i className="fi fi-rr-angle-small-down"></i> </div>
+
+                            {
+                                isFeature2Open ? 
+                                    
+                                    <div className="hoverr">
+
+                                        <HoverCardFeatures cursor = {Out2} cursorIn = {In2} /> 
+
+                                    </div>
+
+                                : null
+                            }
 
                         </div>
 
                          <div className="navlinks"> 
 
-                            <div className="link" onClick={()=> navigate('/features')}> Products <i className="fi fi-rr-angle-small-down"></i> </div>
-
-                        </div>
-
-                         <div className="navlinks"> 
-
-                            <div className="link" onClick={()=> navigate('/faqs')}> FAQs </div>
-
-                        </div>
-
-                         <div className="navlinks"> 
-
-                            <div className="link" onClick={()=> navigate('/blog')}> Blog </div>
-
-                        </div>
-
-                         <div className="navlinks"> 
-
-                            <div className="link" onClick={()=> navigate('/support')}> Support </div>
+                            <a href='https://getfeather.tawk.help/' className="link"> Help Center </a>
 
                         </div>
 
@@ -79,7 +129,7 @@ const Header = () => {
                     <div className="authButtons"> 
 
                         <div className="loginBtn"> Login </div>
-                        <div className="signUpBtn"> Sign Up For Free </div>
+                        <div className="signUpBtn"> Get started <i className = "fi fi-rr-horizontal-rule"></i> for free </div>
 
                     </div>
 

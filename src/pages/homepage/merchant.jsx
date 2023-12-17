@@ -4,7 +4,7 @@ import Guide from '../../components/displayGuideComp/guide'
 import merchant from '../../assets/logo/feather_merchant.jpg'
 import percentage from '../../assets/logo/percentage.png'
 
-
+import {motion} from 'framer-motion'
 
 export default function Merchant() {
 
@@ -17,19 +17,51 @@ export default function Merchant() {
 
             <div className="merchant_agent">
 
-                <div className="percentile">
+                <motion.div className="merchantImg"  
+                
+                initial = {{
+                    opacity : 0,
+                    scale : .3
+                }}
 
-                    <img src={percentage} alt="fixed" />
+                whileInView={{
+                    opacity : 1,
+                    scale : 1
+                }}
 
-                </div>
+                transition = {{duration : 1, type : 'spring', delay : 0.2}}
 
-                <div className="merchantImg">
+                viewport={{
+                    once : true
+                }}
+                
+                >
 
                     <img src={merchant} alt="Merchant Image and Photo" />
                     
-                </div>
+                </motion.div>
 
-                <div className="textContentArea">
+                <motion.div 
+                
+                className="textContentArea"
+
+                initial = {{
+                    opacity : 0,
+                    x : 100
+                }}
+
+                whileInView={{
+                    opacity : 1,
+                    x : 0
+                }}
+
+                transition = {{duration : .2, ease : 'linear', delay : 0.1}}
+
+                viewport={{
+                    once : true
+                }}
+                
+                >
 
                     <div className="mainText">
 
@@ -43,9 +75,9 @@ export default function Merchant() {
 
                     </div>
 
-                    <div className="proof">Curious? <a href="#">Learn More</a> <i className="fi fi-rr-angle-small-right"></i> </div>
+                    <div className="proof">Become a merchnat <i className="fi fi-rr-angle-small-right"></i> </div>
 
-                </div>
+                </motion.div>
 
             </div>
 

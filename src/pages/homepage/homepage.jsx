@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './homepage.scss'
+import './homepage2.scss'
 
 import HomeLanding from './homeLanding'
 import JoinFlock from './joinFlock'
@@ -15,6 +15,7 @@ import Crm from './crm'
 import FAQs from './faq'
 import Footer from './footer'
 import Loader from '../../components/loader/loader'
+import Why from './why'
 
 
 
@@ -42,17 +43,18 @@ const HomePage = () => {
 
             <HomeLanding />
             <JoinFlock/>
-            <SuperCharged />
             <ServiceInfo />
+            <SuperCharged />
             <Features />
             <VirtualCard/>
             <Merchant/>
+            <Why/>
             <Download/>
             <Partners />
             <Kickstart />
-            <Crm />
+            {/* <Crm />
             <FAQs/>
-            <Footer/>
+            <Footer/> */}
 
 
         </div>

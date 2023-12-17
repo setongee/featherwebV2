@@ -2,6 +2,8 @@ import React from 'react'
 import Guide from '../../components/displayGuideComp/guide'
 import phone from '../../assets/photos/Dashboard Iphone.svg'
 
+import {motion} from 'framer-motion'
+
 export default function Kickstart() {
   return (
     
@@ -24,7 +26,7 @@ export default function Kickstart() {
                         <div className="line line1"></div>
                         <div className="line line2"></div>
 
-                        <div className="content-start top-left">
+                        <motion.div className="content-start top-left" initial = {{opacity : 0, x : -100}} whileInView={{opacity : 1, x : 0}} transition = {{type : 'spring'}} >
 
                             <div className="topic">01. Sign Up</div>
                             
@@ -43,9 +45,9 @@ export default function Kickstart() {
                             </div>
 
 
-                        </div>
+                        </motion.div>
 
-                        <div className="content-start top-right">
+                        <motion.div className="content-start top-right" initial = {{opacity : 0, x : 100}} whileInView={{opacity : 1, x : 0}} transition = {{type : 'spring', delay : 0.2}}>
 
                             <div className="topic">02. Fund your wallet</div>
                             
@@ -64,9 +66,9 @@ export default function Kickstart() {
                             </div>
 
 
-                        </div>
+                        </motion.div>
 
-                        <div className="content-start bottom-left">
+                        <motion.div className="content-start bottom-left" initial = {{opacity : 0, x : -100}} whileInView={{opacity : 1, x : 0}} transition = {{type : 'spring', delay : 0.4}}>
 
                             <div className="topic">03. Perform Transaction</div>
                             
@@ -85,9 +87,9 @@ export default function Kickstart() {
                             </div>
 
 
-                        </div>
+                        </motion.div>
 
-                        <div className="content-start bottom-right">
+                        <motion.div className="content-start bottom-right" initial = {{opacity : 0, x : 100}} whileInView={{opacity : 1, x : 0}} transition = {{type : 'spring', delay : 0.6}}>
 
                             <div className="topic">04. Updrage To Odogwu</div>
                             
@@ -106,7 +108,7 @@ export default function Kickstart() {
                             </div>
 
 
-                        </div>
+                        </motion.div>
 
                     </div>
 

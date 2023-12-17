@@ -4,6 +4,16 @@
 
     padding-top: 100px;
 
+    .stripContainer{
+        top: 0;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .textContent{
 
         margin-top: 170px;
@@ -701,7 +711,6 @@
             overflow: hidden;
             display: flex;
             justify-content: flex-end;
-            border-radius: 20px;
 
             img{
                 height: 100%;
@@ -1219,12 +1228,11 @@
 
 .footerArea{
 
-    position: relative;
-
     .stripContainer2{
 
-        margin-top: -100px;
-        
+        margin-top: -50px;
+        position: absolute;
+        z-index: -1;
         //transform: rotateY(180deg) rotate(15deg);
 
         width: 110%;
@@ -1240,6 +1248,23 @@
 
         height: 300px;
         width: 100%;
+        z-index: 2;
+
+        .tryFeather{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .downloadApp{
+
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+            }
+
+        }
 
         .signUp{
 
@@ -1247,7 +1272,7 @@
 
                 color: #101026;
                 font-weight: 300;
-                margin-bottom: 45px;
+                margin-bottom: 40px;
                 font-size: 18px;
 
             }
@@ -1255,7 +1280,7 @@
             .topic{
 
                 font-size: 30px;
-                line-height: 40px;
+                line-height: 42px;
                 font-weight: 400;
 
             }

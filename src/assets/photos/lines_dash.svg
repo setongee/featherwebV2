@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921" height="1081" viewBox="0 0 1921 1081">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1920.5" height="1080" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="1921" height="1081" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7521" data-name="Group 7521" transform="translate(0.5 0.5)">
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(-0.5 0.5)" clip-path="url(#clip-path)">
+      <g transform="translate(0.5 -0.5)">
+        <line id="Line_420" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(151.5 -0.5)">
+        <line id="Line_420-2" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(302.5 -0.5)">
+        <line id="Line_420-3" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(453.5 -0.5)">
+        <line id="Line_420-4" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(604.5 -0.5)">
+        <line id="Line_420-5" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(755.5 -0.5)">
+        <line id="Line_420-6" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(906.5 -0.5)">
+        <line id="Line_420-7" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1057.5 -0.5)">
+        <line id="Line_420-8" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1208.5 -0.5)">
+        <line id="Line_420-9" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1359.5 -0.5)">
+        <line id="Line_420-10" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1510.5 -0.5)">
+        <line id="Line_420-11" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1661.5 -0.5)">
+        <line id="Line_420-12" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(1812.5 -0.5)">
+        <line id="Line_420-13" data-name="Line 420" y2="1080" transform="translate(0 0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(-0.5 -0.5)" clip-path="url(#clip-path-2)">
+      <g transform="translate(0.5 0.5)">
+        <line id="Line_421" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 151.5)">
+        <line id="Line_421-2" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 302.5)">
+        <line id="Line_421-3" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 453.5)">
+        <line id="Line_421-4" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 604.5)">
+        <line id="Line_421-5" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 755.5)">
+        <line id="Line_421-6" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 906.5)">
+        <line id="Line_421-7" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+      <g transform="translate(0.5 1057.5)">
+        <line id="Line_421-8" data-name="Line 421" x2="1921" transform="translate(-0.5)" fill="none" stroke="#efefef" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
