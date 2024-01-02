@@ -171,7 +171,7 @@ const Features = () => {
 
                                 <div className="content">
 
-                                    Send money to other feather users for free and any nigerian bank.
+                                    Send money to feather users and any nigerian bank.
 
                                 </div>
 
