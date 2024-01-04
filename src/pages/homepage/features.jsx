@@ -6,6 +6,11 @@ import bills from '../../assets/photos/billPayment.svg'
 import chatConvo from '../../assets/photos/chatz.svg'
 import patterns from '../../assets/photos/pattern_feather_x.png'
 
+import CashWithdraw1 from '../../assets/logo/withdraw1.svg'
+import funds1 from '../../assets/logo/funds.svg'
+import bills2 from '../../assets/logo/biller.svg'
+import chatConvo2 from '../../assets/logo/chat1.svg'
+
 import { motion, stagger } from "framer-motion"
 
 const Features = () => {
@@ -17,6 +22,8 @@ const Features = () => {
             <Guide>
 
                 <div className="featureSet">
+
+                <div className="leap">
 
                     <motion.div 
 
@@ -57,7 +64,7 @@ const Features = () => {
                             </div>
 
                             <div className="sub_content">
-                                Enjoy powerful services perfectly tailored for you, our driving force is to eliminate your pain points and enhance convenience in transaction.
+                                Enjoy powerful services perfectly tailored for you, our driving force is to eliminate.
                             </div>
 
                             <div className="proof"> Get the app <i className="fi fi-rr-angle-small-right"></i> </div>
@@ -67,7 +74,8 @@ const Features = () => {
                         <div className="photoHold">
 
                             <div className="mainPic">
-                                <img src={CashWithdraw} alt="feather africa - cash withdrawal feature" />
+                                <img className = "l"  src={CashWithdraw} alt="feather africa - cash withdrawal feature" />
+                                <img className = "m"  src={CashWithdraw1} alt="feather africa - cash withdrawal feature" />
                             </div>
                             
                         </div>
@@ -79,8 +87,8 @@ const Features = () => {
 
 
                     <motion.div 
-                    
-                    className="feature-grp"
+
+                    className="feature feature4"
 
                         initial = {{
                             opacity : 0,
@@ -100,8 +108,6 @@ const Features = () => {
                     
                     >
 
-                        <div className="feature feature4">
-
                             <div className="pattern">
                                 <img src={patterns} alt="feather patterns" />
                             </div>
@@ -117,7 +123,7 @@ const Features = () => {
                                 </div>
 
                                 <div className="sub_content">
-                                    Sending money to family, friends and  {<br></br>}  anyone has never been easier.
+                                    Sending money to family, friends and anyone has never been easier.
                                 </div>
 
                                 <div className="proof"> Get the app <i className="fi fi-rr-angle-small-right"></i> </div>
@@ -127,14 +133,143 @@ const Features = () => {
                             <div className="photoHold">
 
                             <div className="mainPic">
-                                <img src={chatConvo} alt="feather africa - cash withdrawal feature" />
+                                <img className = "l" src={chatConvo} alt="feather africa - cash withdrawal feature" />
+                                <img className = "m" src={chatConvo2} alt="feather africa - cash withdrawal feature" />
                             </div>
                             
                         </div>
 
+                    </motion.div>
+
+                </div>
+
+
+                {/* Mobile Side of things */}
+
+
+                <div className="leap leap2">
+
+                    <motion.div 
+
+                        className="feature feature1"
+
+                        initial = {{
+                            opacity : 0,
+                            y : 100
+                        }}
+
+                        whileInView={{
+                            opacity : 1,
+                            y : 0
+                        }}
+
+                        transition = {{duration : .25, ease : 'linear'}}
+
+                         viewport={{
+                                once : true
+                            }}
+                    >
+
+
+                        <div className="pattern">
+                            <img src={patterns} alt="feather patterns" />
+                        </div>
+
+                        <div className="textPin">
+
+                            <div className="tag"> 
+                                <i className="fi fi-rr-exit"></i>
+                            </div>
+
+                            <div className="content">
+
+                            Pay your bills with ease, never miss a thing again.
+
+
+                            </div>
+
+                            <div className="sub_content">
+                            Hey, never miss a subscription again, we got you covered with bill payments
+                            </div>
+
+                            <div className="proof"> Get the app <i className="fi fi-rr-angle-small-right"></i> </div>
+
+                        </div>
+
+                        <div className="photoHold">
+
+                            <div className="mainPic">
+                                <img className = "l"  src={bills} alt="feather africa - cash withdrawal feature" />
+                                <img className = "m"  src={bills2} alt="feather africa - cash withdrawal feature" />
+                            </div>
+                            
                         </div>
 
                     </motion.div>
+
+
+                    {/* Feature 4 */}
+
+
+                    <motion.div 
+
+                    className="feature feature4"
+
+                        initial = {{
+                            opacity : 0,
+                            y : 100
+                        }}
+
+                        whileInView={{
+                            opacity : 1,
+                            y : 0
+                        }}
+
+                        transition = {{duration : .25, ease : 'linear'}}
+
+                         viewport={{
+                                once : true
+                            }}
+                    
+                    >
+
+                            <div className="pattern">
+                                <img src={patterns} alt="feather patterns" />
+                            </div>
+
+                            <div className="textPin">
+
+                                <div className="tag"> <i className="fi fi-sr-receipt"></i> </div>
+
+                                <div className="content">
+
+                                    Send money to feather users and any nigerian bank.
+
+                                </div>
+
+                                <div className="sub_content">
+                                    Sending money to family, friends and anyone has never been easier.
+                                </div>
+
+                                <div className="proof"> Get the app <i className="fi fi-rr-angle-small-right"></i> </div>
+
+                            </div>
+
+                            <div className="photoHold">
+
+                            <div className="mainPic">
+                                <img className = "l" src={funds} alt="feather africa - cash withdrawal feature" />
+                                <img className = "m" src={funds1} alt="feather africa - cash withdrawal feature" />
+                            </div>
+                            
+                        </div>
+
+                    </motion.div>
+
+                </div>
+
+
+                {/* DESKTOP OPTIONS DOWN IN THE WAY */}
 
 
                     {/* feature 2 */}
@@ -169,6 +304,8 @@ const Features = () => {
 
                             <div className="textPin">
 
+                            <div className="tag"> <i className="fi fi-sr-receipt"></i> </div>
+
                                 <div className="content">
 
                                     Send money to feather users and any nigerian bank.
@@ -186,7 +323,8 @@ const Features = () => {
                             <div className="flip">
 
                                 <div className="mainPic">
-                                    <img src={funds} alt="feather africa - transfer funds feature" />
+                                <img className = "l" src={funds} alt="feather africa - cash withdrawal feature" />
+                                <img className = "m" src={funds1} alt="feather africa - cash withdrawal feature" />
                                 </div>
 
                             </div>
@@ -227,6 +365,8 @@ const Features = () => {
 
                                 <div className="textPin">
 
+                                <div className="tag"> <i className="fi fi-sr-receipt"></i> </div>
+
                                     <div className="content">
 
                                         Pay your bills with ease, never miss a thing again.
@@ -242,7 +382,8 @@ const Features = () => {
                                     <div className="flip">
 
                                         <div className="mainPic">
-                                            <img src={bills} alt="feather africa - transfer funds feature" />
+                                            <img className = "l" src={bills} alt="feather africa - cash withdrawal feature" />
+                                            <img className = "m" src={bills2} alt="feather africa - cash withdrawal feature" />
                                         </div>
 
                                     </div>

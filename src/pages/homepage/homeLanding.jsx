@@ -28,9 +28,9 @@ const HomeLanding = () => {
             
                 <div className="mainText">
                     
-                    The <span className='better'> better <div className="imgBetter"><img src={mark} alt="" /></div> </span> way to 
+                    The better way to 
                     
-                    <span className='typewritter'>
+                    <span className='typewritter type1'>
             
                         <Typewriter
             
@@ -45,10 +45,28 @@ const HomeLanding = () => {
                         />
             
                     </span>
+
+                    <span className='typewritter type2'>
+            
+                        <Typewriter
+            
+                            options={{
+                                strings: ['withdraw cash.', 'transfer money.', 'pay your bills.', 'shop online.', 'accept payments'],
+                                autoStart: true,
+                                loop: true,
+                                delay : 50,
+                                deleteSpeed : 30
+                            }}
+            
+                        />
+            
+                    </span>
             
                 </div>
             
-                <div className="subText">Withdraw your cash on-the-go from merchants who have it in real-time. Whether it’s a mom-and-pop shop or brick-and-mortar store. <span> Your cash is now within reach! </span> </div>
+                <div className="subText lx">Withdraw your cash on-the-go from merchants who have it in real-time. Whether it’s a mom-and-pop shop or brick-and-mortar store. <span> Your cash is now within reach! </span> </div>
+
+                <div className="subText sm">Withdraw your cash on-the-go from merchants who have it in real-time.<span> Your cash is now within reach! </span> </div>
             
                 <motion.div className="phoneScreens" initial = {{y : 800}} animate = {{y : 0}} transition={{duration : 1, delay : 3, type : 'spring'}} >
                     <img src={phones} alt="feather screens mockup" />

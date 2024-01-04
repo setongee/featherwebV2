@@ -27,7 +27,7 @@ export default function Footer() {
                     <div className="signUp">
 
                         <div className="smallText">Try Feather Now</div>
-                        <div className="topic">Get Started Today, create an { <br/> } account for free In 5 Mins</div>
+                        <div className="topic">Get Started Today, create an account for free in 5Mins</div>
 
                     </div>
 

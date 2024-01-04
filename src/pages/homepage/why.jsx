@@ -57,7 +57,7 @@ export default function Why() {
 
                 <div className="headTag"> 
 
-                    <div className="headings">Trusted by {stat}+ users {<br></br>} and {transact}+ transactions</div>
+                    <div className="headings">Trusted by {stat}+ users and {transact}+ transactions</div>
                     <p>Thousands of users trust Feather to aid them in their day-to-day financial needs. From withdrawing their cash with ease, to making payments a breeze</p>
 
                 </div>

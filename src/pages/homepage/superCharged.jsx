@@ -19,7 +19,7 @@ const SuperCharged = () => {
         'Easy to use with great user experience to engage you',
         'Secure payments and gateway to aid safe transfers',
         'Fund your wallet with different options',
-        'Get free account balance from VFD'
+        'Get free cash-in account from VFD'
     ]
 
     const listItems = {

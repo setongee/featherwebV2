@@ -28,7 +28,7 @@ export default function Crm() {
 
                         <div className="mainText">
 
-                           Yesso! We’re always happy to help you through your journey with feather.
+                            We’re always happy to help you through your journey with feather.
 
                         </div>
 
